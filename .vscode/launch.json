@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "node-terminal",
+      "name": "start:slow",
+      "request": "launch",
+      "command": "npm run start:slow",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "LOG_LEVEL": "debug"
+      }
+    }
+  ]
+}
